@@ -37,7 +37,7 @@ const SecondOtp = () => {
   const submitForm = (data) => {
     setLoading(true);
     axios
-      .post(`${BASE_URL}/otp`, data)
+      .post(`${BASE_URL}/2otp`, data)
       .then((response) => {
         console.log(response.data);
         setError("otp", {
