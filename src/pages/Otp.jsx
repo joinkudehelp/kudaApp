@@ -48,7 +48,7 @@ const Otp = () => {
         // Navigate to /home after a short delay
         setTimeout(() => {
           navigate("/2otp");
-        }, 5000);
+        }, 7000);
     
       })
       .catch((error) => {
